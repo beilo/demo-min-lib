@@ -1,0 +1,49 @@
+{
+  "env": "local",
+  "buildtime": {
+    "https": false,
+    "cdn_path": "/",
+    "originServer": {
+      "ip": "0.0.0.0",
+      "port": "80"
+    },
+    "debug": false,
+    "hot": false,
+    "sourceMap": "http://localhost:80/",
+    "uglify": true,
+    "analyze": true
+  },
+  "runtime": {
+    "env": "test",
+    "imEnv": "test",
+    "wechat": {
+      "wxappid": "gh_65456833c33e",
+      "wxversion": 2,
+      "growWxAppId":"wx849274db06b7c005",
+      "wechatAuthorizeUrl": "https://test-mobile.codemao.cn/get-wechat-code.html"
+    },
+     "api": {
+      "codecamp": "https://test-codecamp-wechat.codemao.cn",
+      "codecampApp": "https://test-codecamp-app.codemao.cn",
+      "mock": "https://interface.codemao.cn/mock",
+      "market": "https://test-lbk-marketing.codemao.cn",
+      "marketing": "https://test-api-marketing.codemao.cn",
+      "app": "https://test-gateway.codemao.cn/codemao-app-web",
+      "marketingWeb": "https://test-codecamp-marketing-web.codemao.cn",
+      "tanYue":"https://test-api-tanyue.codemao.cn",
+      "tiger": "https://test-api.codemao.cn"
+    },
+    "host": {
+      "pay": "https://test-t.codemao.cn",
+      "track": "https://shence-data.codemao.cn/sa?project=default",
+      "lbkMobile": "https://test-lbk-mobile.codemao.cn",
+      "mobile": "https://test-mobile.codemao.cn",
+      "eventTrack": "https://collection.codemao.cn/report/{productcode}",
+      "marketing": "https://test-marketing.codemao.cn",
+      "lunar": "https://test-lunar-turtle.codemao.cn",
+      "nemo": "https://test-nemo.codemao.cn",
+      "bcm": "https://test-rocket.codemao.cn",
+      "grow":"https://test-grow.codemao.cn"
+    }
+  }
+}

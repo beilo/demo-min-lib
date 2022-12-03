@@ -1,0 +1,68 @@
+{
+  "env": "",
+  "buildtime": {
+    "cdn_path": "",
+    "origin_server": {
+      "ip": "0.0.0.0",
+      "port": "5000",
+      "https": {
+        "enabled": false,
+        "crt": "",
+        "key": ""
+      }
+    },
+    "dashboard": false,
+    "debug": false,
+    "hot": false,
+    "sourcemap": false,
+    "uglify": true,
+    "analyze": false
+  },
+  "runtime": {
+    "language": "zh-CN",
+    "api": {
+      "host": "",
+      "port": "443"
+    },
+    "time": {
+      "host": "",
+      "port": ""
+    },
+    "education": {
+      "host": "",
+      "port": ""
+    },
+    "agora_rtc": {
+      "app_id": ""
+    },
+    "host": {
+      "event_track": "",
+      "iris": "",
+      "ide": "",
+      "box": "",
+      "box2": "",
+      "wood": "",
+      "lizzy": "",
+      "tob": "",
+      "im_env": "",
+      "shequ": "",
+      "mobile": "",
+      "mlz": "",
+      "exam": "",
+      "live2d": { 
+        "host": "",
+        "resource": ""
+      }
+    },
+    "iris": {
+      "host": "",
+      "geetest_product_id": "",
+      "waterproof_wall_product_id": ""
+    },
+    "env": "prod",
+    "wechat": {
+      "app_id": "",
+      "debug": false
+    }
+  }
+}

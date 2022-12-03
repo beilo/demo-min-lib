@@ -1,0 +1,46 @@
+{
+  "name": "@beilo/pack",
+  "version": "1.0.0",
+  "private": true,
+  "author": "雷鹏windows <leipeng950504@gmail.com>",
+  "scripts": {
+    "dev": "cross-env HOST=0.0.0.0 PORT=5000 umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev",
+    "lint": "umi lint",
+    "prepare": "husky install",
+    "production": "node ./bin/server.js",
+    "cdnUpload": "./script/upload.sh"
+  },
+  "dependencies": {
+    "umi": "^4.0.24",
+    "lodash": "4.17.21",
+    "ms": "2.1.3",
+    "express": "4.18.2",
+    "compression": "1.7.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2",
+    "prettier": "^2",
+    "prettier-plugin-organize-imports": "^2",
+    "prettier-plugin-packagejson": "^2",
+    "@umijs/lint": "^4.0.24",
+    "eslint": "^8.24.0",
+    "stylelint": "^14.13.0",
+    "lint-staged": "^13.0.3",
+    "husky": "^8.0.1",
+    "postcss-pxtorem": "^4.0.1",
+    "cross-env": "~7.0.3",
+    "babel-plugin-react-css-modules": "^5.2.6"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,less}": [
+      "umi lint"
+    ],
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

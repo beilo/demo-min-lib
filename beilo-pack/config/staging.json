@@ -1,0 +1,55 @@
+{
+  "env": "staging",
+  "buildtime": {
+    "cdn_path": "https://online-education.codemao.cn/lbk/2/codemao-app-www/",
+    "originServer": {
+      "ip": "0.0.0.0",
+      "port": "5000",
+      "https": {
+        "enabled": false,
+        "crt": "",
+        "key": ""
+      }
+    },
+    "debug": false,
+    "hot": false,
+    "sourceMap": "http://localhost:5000/",
+    "uglify": true,
+    "analyze": false,
+    "gzip": true
+  },
+  "runtime": {
+    "env": "staging",
+    "imEnv": "staging",
+    "wechat": {
+      "wxappid": "gh_f8ddadda49f5",
+      "wxversion": 0,
+      "growWxAppId":"wx239004167e279c9b",
+      "wechatAuthorizeUrl": "https://mobile.codemao.cn/get-wechat-code.html"
+    },
+    "api": {
+      "codecamp": "https://staging-codecamp-wechat.codemao.cn",
+      "codecampApp": "https://staging-codecamp-app.codemao.cn",
+      "mock": "https://interface.codemao.cn/mock",
+      "market": "https://staging-lbk-marketing.codemao.cn",
+      "marketing": "https://staging-api-marketing.codemao.cn",
+      "app": "https://staging-gateway.codemao.cn/codemao-app-web",
+      "marketingWeb": "https://staging-codecamp-marketing-web.codemao.cn",
+      "tanYue":"https://staging-api-tanyue.codemao.cn",
+      "tiger": "https://backend-test.codemao.cn",
+      "crmConsumer":"https://staging-crm-consumer.codemao.cn"
+    },
+    "host": {
+      "pay": "https://staging-t.codemao.cn",
+      "track": "https://shence-data.codemao.cn/sa?project=default",
+      "lbkMobile": "https://staging-lbk-mobile.codemao.cn",
+      "mobile": "https://staging-mobile.codemao.cn",
+      "eventTrack": "https://collection.codemao.cn/report/{productcode}",
+      "marketing": "https://staging-marketing.codemao.cn",
+      "lunar": "https://staging-lunar-turtle.codemao.cn",
+      "nemo": "https://staging-nemo.codemao.cn",
+      "bcm": "https://staging-rocket.codemao.cn",
+      "grow":"https://staging-grow.codemao.cn"
+    }
+  }
+}
