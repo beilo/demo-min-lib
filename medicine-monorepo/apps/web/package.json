@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "medicine-web",
+  "version": "0.0.1",
+  "author": "雷鹏windows <leipeng950504@gmail.com>",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@ant-design/pro-components": "^2.3.51",
+    "antd": "^5.1.2",
+    "umi": "^4.0.42",
+    "umi-request": "^1.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.1.2"
+  }
+}
